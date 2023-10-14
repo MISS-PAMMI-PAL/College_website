@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/bootstrap-icons/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <!-- <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="assets/bootstrap-icons/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+</head>
+<style>
+  /* .sidebar .contact-1 .contact-form form textarea {
+    min-height: 130px;
+}
+
+.contact-1 label {
+    font-weight: 600;
+    font-size: 14px;
+} */
+
+  .contact-1 .contact-form form .form-control {
+    width: 100%;
+    padding: 10px 17px;
+    font-size: 15px;
+    outline: none;
+    color: #6c6c6c;
+    border-radius: 3px;
+    min-height: 50px;
+    font-weight: 400;
+    border: 1px solid #dbdbdb;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .06);
+  }
+
+  .contact-1 .col-pad2 {
+    padding: 0;
+  }
+
+  .contact-1 .contact-details .ci-box i {
+    width: 65px;
+    font-size: 25px;
+    height: 65px;
+    line-height: 65px;
+    border-radius: 100%;
+    background: #fff;
+    color: #000;
+    text-align: center;
+  }
+
+  .contact-1 .contact-details .ci-box {
+    margin-bottom: 25px;
+    position: relative;
+  }
+
+  .contact-1 .detail {
+    margin: 5px 0 0 20px;
+  }
+
+  .contact-1 .contact-details {
+    background: #fff;
+    padding: 50px;
+    background: rgba(0, 0, 0, 0.04) url(../img/img-4.jpg) top left repeat;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 0;
+  }
+
+  .contact-1 .contact-details:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #191fcb;
+    content: "";
+    z-index: -1;
+    opacity: 0.7;
+  }
+
+  .contact-1 .contact-pad {
+    padding: 50px;
+  }
+
+  .contact-1 .col-pad2 {
+    border-right: none;
+  }
+
+  .contact-1 .contact-form .form-group {
+    margin-bottom: 20px;
+  }
+
+  .contact-1 .contact-form form textarea {
+    min-height: 250px !important;
+  }
+
+  .contact-1 .contact-details .ci-box h4 {
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
+    font-style: normal;
+    margin: 0 0 5px;
+  }
+
+  /* .contact-1 h3 {
+    margin: 0 0 20px;
+    font-weight: 600;
+    font-size: 22px;
+} */
+
+  .contact-1 .contact-details .ci-box p {
+    font-size: 15px;
+    color: #fff;
+    margin-bottom: 0;
+  }
+
+  /* .contact-1 .contact-details .ci-box p a {
+    color: #fff;
+}  */
+
+  /* .contact-1 .contact-details h3{
+    color: #fff;
+} */
+
+
+  /* .contact-1 .social-media .icon {
+    background: red;
+}  */
+
+  /* .contact-1 .social-media .icon span {
+    color: #95c41f!important;
+}  */
+
+  .contact-1 .social-media .icon:hover span {
+    color: #fff !important;
+  }
+</style>
+
+<body>
+  <!--  start top nav ########## -->
+  <div class="topnav">
+    <a href="#">Home <i class="fa fa-home" aria-hidden="true"></i></a>
+    <a href="#">Email<i class="fa fa-envelope"></i></a>
+    <a href="#">Contact <i class="fa fa-envelope"></i></a>
+    <a href="#">About <i class="fa fa-user"></i></a>
+    <div class="right-lnk">
+      <a href="signin.html"><i class="fa-brands fa-facebook-f"></i></a>
+      <a href="signin.html"><i class="fa-brands fa-instagram"></i></a>
+      <a href="signin.html"><i class="fa-brands fa-twitter"></i></a>
+      <a href="signin.html"><i class="fa-brands fa-linkedin"></i></a>
+    </div>
+  </div>
+  <!-- end top nav -->
+  <!-- start nav section ##################### -->
+  <section class="navigation sticky-top ">
+    <div class="nav-container">
+      <div class="brand">
+        <a href="index.html"><img src="assets/img/birdskylogopammi.jpg" class="img-fluid" alt="logo"
+            style="border-radius: 10%; height: 60px; width: 120px;"></a>
+      </div>
+      <nav>
+        <div class="nav-mobile"><a id="navbar-toggle" href="#!"><span></span></a></div>
+        <ul class="nav-list">
+          <li>
+            <a href="index.html" class="">Home</a>
+          </li>
+          <li>
+            <a href="about.html">About</a>
+          </li>
+          <li>
+            <a href="#">Courses+</a>
+            <ul class="navbar-dropdown">
+              <li>
+                <a href="cabin_crew_course.html">Cabin Crew</a>
+              </li>
+              <li>
+                <a href="#!">Air Hostages</a>
+              </li>
+              <li>
+                <a href="#!">Travel Tourism</a>
+              </li>
+              <li>
+                <a href="#!">Hotel Management</a>
+              </li>
+              <li>
+                <a href="#!">Diploma Airportmanagement</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="placement.html">Placement</a>
+          </li>
+          <li>
+            <a class="active" href="contact.html">Contact</a>
+          </li>
+          <li>
+            <a href="signin.html">Login</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </section>
+  <!-- start crousel  -->
+  <div class=" container-fluid ">
+    <img class="mySlides active " src="assets/img/cabin_crew.avif" style="width:100%" height="500px">
+    <div class="centered">
+      <h1 class="cabin_crew1 text-center">
+        Get in touch
+      </h1>
+      <div class="cabin_crew2">
+        <i class="fa fa-home" aria-hidden="true"></i><a href="index.html">HOME</a><i class="fa fa-angle-double-right"
+          aria-hidden="true"></i>
+        <h3 style="font-weight: 900;">Contact Us</h3>
+      </div>
+    </div>
+  </div>
+
+  <div class="text-center p-5">
+    <h1 style="font-weight: 900;">GET IN TOUCH</h1>
+  </div>
+
+  <!-- start get in touch ########### -->
+  <div class="contact-1 content-area-7">
+    <div class="container">
+      <!-- Main title -->
+      <div class="main-title text-center">
+        <h1>Get In Touch</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+      </div>
+      <div class="bg-white">
+        <div class="row g-0">
+          <div class="col-lg-5 col-md-5 col-sm-12 col-pad2">
+            <!-- Contact form start -->
+            <div class="contact-form contact-pad">
+              <h3>Send us a Message</h3>
+              <form id="contact_form"
+                action="https://storage.googleapis.com/theme-vessel-items/checking-sites/nest-2-html/HTML/main/index.html"
+                method="GET" enctype="multipart/form-data">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="form-group name">
+                      <input type="text" name="name" class="form-control" placeholder="Name" aria-label="Full Name">
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="form-group email">
+                      <input type="email" name="email" class="form-control" placeholder="Email Address"
+                        aria-label="Email Address">
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="form-group subject">
+                      <input type="text" name="subject" class="form-control" placeholder="Subject" aria-label="Subject">
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="form-group number">
+                      <input type="text" name="phone" class="form-control" placeholder="Phone"
+                        aria-label="Phone Number">
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="form-group message">
+                      <textarea class="form-control" name="message" placeholder="Write message"
+                        aria-label="Write message"></textarea>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="send-btn text-center">
+                      <button type="submit" class="button-md button-theme btn-3">Send
+                        Message</button>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <!-- Contact form end -->
+          </div>
+          <div class="col-lg-7 col-md-7 col-sm-12 col-pad2" style="height: 500px;">
+            <br><br><br> <!-- Contact details start -->
+            <div class="contact-details">
+              <h3>Opening Hours</h3>
+              <div class="ci-box d-flex">
+                <div class="icon">
+                  <i class="fa fa-map-marker"></i>
+                </div>
+                <div class="detail align-self-center">
+                  <h4>Office Address</h4>
+                  <p>Metro Station
+                    FF-20, Vyapar Kendra Road
+                    near Huda City Centre
+                    Sushant Lok Phase I, Sector 43
+                    Gurugram, Haryana 122009
+                    India</p>
+                </div>
+              </div>
+              <div class="ci-box d-flex">
+                <div class="icon">
+                  <i class="fa fa-phone"></i>
+                </div>
+                <div class="detail align-self-center">
+                  <h4>Phone Number</h4>
+                  <p>
+                    <a href="tel:+91 9910766511">Office:+91 9910766511</a>
+                  </p>
+                </div>
+              </div>
+              <div class="ci-box d-flex">
+                <div class="icon">
+                  <i class="fa fa-envelope"></i>
+                </div>
+                <div class="detail align-self-center">
+                  <h4>Email Address</h4>
+                  <p>
+                    <a href="mailto:rbsgurgaon@gmail.com">rbsgurgaon@gmail.com</a>
+                  </p>
+                </div>
+              </div>
+              <h3>Follow Us</h3>
+
+              <div social style="color: red;">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+              </div>
+            </div>
+            <!-- Contact details end -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--end get in touch ########### -->
+  <!-- start google map ##########-->
+  <div><h2 class="text-center">Use map</h2></div>
+  <div class= " container-fluid p-3  " style="border: 1px solid;">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14008.677922226045!2d77.38655839999998!3d28.6246822!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ceff135b3084b%3A0x19ccb4e95c69306d!2sSector%2063%2C%20Noida%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1696465829228!5m2!1sen!2sin"
+      width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+
+
+  <!-- end google map ################## -->
+  <!-- footer section start -->
+  <footer class="footer-section">
+    <div class="container p-3">
+      <div class="footer-content pt-5 pb-5">
+        <div class="row">
+          <div class="col-xl-4 col-lg-4 mb-50">
+            <div class="footer-widget">
+              <div class="footer-logo">
+                <a href="index.html"><img src="assets/img/birdskylogopammi.jpg" class="img-fluid" alt="logo"
+                    style="border-radius: 10%; height: 50px; width: 100px;"></a>
+              </div>
+              <div class="footer-text">
+                <p>Near post office chandausi road Babrala District sambhal division moradabad Pin : 243751</p>
+                <p>ACCOUNT NAME : Birdsky Aviation Academy
+                  BRANCH : Babrala
+                  DISTRICT : Sambhal
+                  ACCOUNT NUMBER: 25640200000493
+                  IFSC CODE : BARB0BABRAL
+                  Number : 8218639536
+                  Office open : 09AM to 5PM Mon-Sat</p>
+              </div>
+              <div class="footer-social-icon">
+                <span>Follow us</span>
+                <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+                <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+            <div class="footer-widget">
+              <div class="footer-widget-heading">
+                <h3>Quick Links</h3>
+              </div>
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">services</a></li>
+                <li><a href="#">portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">
+                    Research Degrees</a></li>
+                <li><a href="#">Graduate School</a></li>
+                <li><a href="#">Research Archive</a></li>
+                <li><a href="#">
+                    Governance & Ethics</a></li>
+                <li><a href="#">Health Research</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+            <div class="footer-widget">
+              <div class="footer-widget-heading">
+                <h3>Newsletter</h3>
+              </div>
+              <div class="footer-text mb-25">
+                <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+              </div>
+              <div class="subscribe-form">
+                <form action="#">
+                  <input type="text" placeholder="Email Address">
+                  <button><i class="fab fa-telegram-plane"></i></button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+            <div class="copyright-text">
+              <p>Copyright &copy; 2018, All Right Reserved <a href="https://codepen.io/anupkumar92/">Anup</a></p>
+            </div>
+          </div>
+          <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+            <div class="footer-menu">
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Policy</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- ######### -->
+  <!-- ############## -->
+
+
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+   <!-- start nav ######## -->
+ <script>
+  (function ($) {
+    $(function () {
+
+      //  open and close nav 
+      $('#navbar-toggle').click(function () {
+        $('nav ul').slideToggle();
+      });
+
+
+      // Hamburger toggle
+      $('#navbar-toggle').on('click', function () {
+        this.classList.toggle('active');
+      });
+
+
+      // If a link has a dropdown, add sub menu toggle.
+      $('nav ul li a:not(:only-child)').click(function (e) {
+        $(this).siblings('.navbar-dropdown').slideToggle("slow");
+
+        // Close dropdown when select another dropdown
+        $('.navbar-dropdown').not($(this).siblings()).hide("slow");
+        e.stopPropagation();
+      });
+
+
+      // Click outside the dropdown will remove the dropdown class
+      $('html').click(function () {
+        $('.navbar-dropdown').hide();
+      });
+    });
+  })(jQuery); 
+</script>
+
+ <!-- end nav ########## -->
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      function counter(id, start, end, duration) {
+        let obj = document.getElementById(id),
+          current = start,
+          range = end - start,
+          increment = end > start ? 1 : -1,
+          step = Math.abs(Math.floor(duration / range)),
+          timer = setInterval(() => {
+            current += increment;
+            obj.textContent = current;
+            if (current == end) {
+              clearInterval(timer);
+            }
+          }, step);
+      }
+      counter("count1", 0, 500, 3000);
+      counter("count2", 0, 250, 2500);
+      counter("count3", 0, 120, 3000);
+      counter("count4", 0, 50, 3000);
+    });
+
+  </script>
+
+  <!-- crousel start -->
+  <script>
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      myIndex++;
+      if (myIndex > x.length) { myIndex = 1 }
+      x[myIndex - 1].style.display = "block";
+      setTimeout(carousel, 5000);
+    }
+  </script>
+  <!-- crousel end -->
+
+
+
+  <!--  -->
+
+  <!--  -->
+</body>
+
+</html>
